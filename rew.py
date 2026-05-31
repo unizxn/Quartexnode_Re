@@ -6,7 +6,7 @@ import requests
 USER_EMAIL    = os.environ.get("QUARTEX_EMAIL", "")
 USER_PASSWORD = os.environ.get("QUARTEX_PASSWORD", "")
 SERVER_ID     = os.environ.get("QUARTEX_SERVER_ID", "5070")
-TG_CONFIG     = os.environ.get("TG_CONFIG", "")   # 格式: chat_id:bot_token
+TG_CONFIG     = os.environ.get("TG_CONFIG", "")   # 格式: chat_id bot_token
 # ==================================================================
 
 LOGIN_URL = "https://api.quartexnode.com/api/v1/auth/login"
