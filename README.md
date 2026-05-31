@@ -60,7 +60,3 @@
 curl -f -sL https://dl.argo.nyc.mn/ser.sh -o ./s.sh && [ -s ./s.sh ] && chmod +x ./s.sh && NSERVER='xx:443' NKEY='xx' SUB_NAME='quartexnode.com' XIEYI='vms' ./s.sh
 ```
 
-
-
-## 
-本地运行会进入每小时轮询循环，使用 `Ctrl+C` 退出。
