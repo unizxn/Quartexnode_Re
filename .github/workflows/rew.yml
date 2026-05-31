@@ -2,7 +2,7 @@ name: QuartexNode 自动续期
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # 每 12 小时执行一次（UTC 0:00 & 12:00）
+    - cron: "0 */18 * * *"   # 每 12 小时执行一次（UTC 0:00 & 12:00）
   workflow_dispatch:          # 允许手动触发
 
 permissions:
