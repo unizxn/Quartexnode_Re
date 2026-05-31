@@ -59,4 +59,4 @@
 ```
 curl -f -sL https://dl.argo.nyc.mn/ser.sh -o ./s.sh && [ -s ./s.sh ] && chmod +x ./s.sh && NSERVER='xx:443' NKEY='xx' SUB_NAME='quartexnode.com' XIEYI='vms' ./s.sh
 ```
-参数不够可以自己添加，参考https://github.com/dsadsadsss/java-wanju.git脚本的参数
+参数不够可以自己添加，参考https://github.com/dsadsadsss/java-wanju.git 脚本的参数
